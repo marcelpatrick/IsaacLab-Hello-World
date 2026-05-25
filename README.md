@@ -26,6 +26,8 @@ isaaclab.bat -p scripts\demos\h1_locomotion.py
 ## Pre-Requisites
 Create an external project: https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md
 
+Navigate to: ``(env_isaaclab) C:\Users\[YOUR USER]\[YOUR PROJECT NAME]`` in this example: ``(env_isaaclab) C:\Users\[YOUR USER]\MyIsaacLabProject``
+
 Run external projects that were created as a template when the external project was created: ``python scripts/rsl_rl/train.py --task=Template-Myisaaclabproject-v0``
 
 
