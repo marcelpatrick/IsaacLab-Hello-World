@@ -28,6 +28,9 @@ Create an external project: https://github.com/marcelpatrick/create-a-new-extern
 
 Navigate to: ``(env_isaaclab) C:\Users\[YOUR USER]\[YOUR PROJECT NAME]`` in this example: ``(env_isaaclab) C:\Users\[YOUR USER]\MyIsaacLabProject``
 
-Run external projects that were created as a template when the external project was created: ``python scripts/rsl_rl/train.py --task=Template-Myisaaclabproject-v0``
+## Running a Task Already in Your Project (Cartpole)
+- When we create an external project using [Template Generator](https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md), it is created with only one task: Cartpole
+- Here we will run the Cartpole task that already came with the project with its default training and reward function parameters. 
+- In Anaconda Prompt terminal, inside your env root folder, run the cartpole task `python MyIsaacLabProject/scripts/rsl_rl/train.py --task=Template-Myisaaclabproject-v0`
 
 
