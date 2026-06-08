@@ -2,7 +2,7 @@
 
 # Pre-Requisites
 Install IsaacSim and IsaacLab: https://github.com/marcelpatrick/IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial/blob/main/README.md 
-Download 
+ 
 
 # 0- Activate Conda Environment
 From base path run ``conda activate [YOUR ENV NAME]`` in this example ``conda activate env_isaaclab``
