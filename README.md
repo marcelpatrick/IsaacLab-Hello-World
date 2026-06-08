@@ -1,18 +1,18 @@
 # IsaacLab-Hello-World
 
-# Pre-Requisites
-Install IsaacSim and IsaacLab: https://github.com/marcelpatrick/IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial/blob/main/README.md 
+# 0- Pre-Requisites
+Make sure you have IsaacSim and IsaacLab installed and your Python environment created with Anaconda Prompt. If you haven't check: https://github.com/marcelpatrick/IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial/blob/main/README.md 
  
 
-# 0- Activate Conda Environment
-From base path run ``conda activate [YOUR ENV NAME]`` in this example ``conda activate env_isaaclab``
+# 1- Activate Conda Environment
+. Open Anaconda Prompt Terminal
+. From base path run ``conda activate [YOUR ENV NAME]`` in this example ``conda activate env_isaaclab``
 
-# 1- Run Internal Projects
-Run internal projects (projects that come inside the IsaacSim template folder)
+# 2- Run Internal Projects
+. Run projects that come with the IsaacSim template project cloned from GitHub
+. Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
 
-Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
-
-Run Internal Project demos available in the repo:
+. Run Internal Project demos available in the repo:
 ```
 python scripts\tutorials\05_controllers\run_diff_ik.py
 python scripts\tutorials\01_assets\run_deformable_object.py
@@ -21,16 +21,16 @@ python scripts\tutorials\03_envs\create_quadruped_base_env.py
 isaaclab.bat -p scripts\demos\h1_locomotion.py
 ```
 
-# 2- Run External Projects
+# 3- Run External Projects
 
-## Pre-Requisites
-Create an external project: https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md
+## 3.1- Pre-Requisites
+Create an external project. If you haven't, check: https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md
 
-Navigate to: ``(env_isaaclab) C:\Users\[YOUR USER]\[YOUR PROJECT NAME]`` in this example: ``(env_isaaclab) C:\Users\[YOUR USER]\MyIsaacLabProject``
+. Navigate to: ``(env_isaaclab) C:\Users\[YOUR USER]\[YOUR PROJECT NAME]`` in this example: ``(env_isaaclab) C:\Users\[YOUR USER]\MyIsaacLabProject``
 
-## Running a Task Already in Your Project (Cartpole)
-- When we create an external project using [Template Generator](https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md), it is created with only one task: Cartpole
-- Here we will run the Cartpole task that already came with the project with its default training and reward function parameters. 
+## 3.2- Running a Task Already in Your Project (Cartpole)
+- When we create an external project using [Template Generator](https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md), it is created with one template simulation task: Cartpole
+- Here we will run the Cartpole task with its default training and reward function parameters. 
 - In Anaconda Prompt terminal, inside your env root folder, run the cartpole task `python MyIsaacLabProject/scripts/rsl_rl/train.py --task=Template-Myisaaclabproject-v0`
 
 
