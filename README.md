@@ -1,9 +1,10 @@
 # IsaacLab-Hello-World
 
+Video Tutorial: https://youtu.be/vZf5F5OwSOk 
+
 # 0- Pre-Requisites
 Make sure you have IsaacSim and IsaacLab installed and your Python environment created with Anaconda Prompt. If you haven't, check: https://github.com/marcelpatrick/IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial/blob/main/README.md 
  
-
 # 1- Activate Conda Environment
 . Open Anaconda Prompt Terminal
 . From base path run ``conda activate [YOUR ENV NAME]`` in this example ``conda activate env_isaaclab``
