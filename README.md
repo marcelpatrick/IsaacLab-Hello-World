@@ -8,11 +8,11 @@ Make sure you have IsaacSim and IsaacLab installed and your Python environment c
 . Open Anaconda Prompt Terminal
 . From base path run ``conda activate [YOUR ENV NAME]`` in this example ``conda activate env_isaaclab``
 
-# 2- Run Internal Projects
-. Run projects that come with the IsaacSim template project cloned from GitHub
+# 2- Run Template Tasks in Internal Projects
+. Run template tasks that come inside the IsaacSim template project cloned from GitHub (internal project)
 . Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
 
-. Run Internal Project demos available in the repo:
+. Run template task demos available in the repo:
 ```
 python scripts\tutorials\05_controllers\run_diff_ik.py
 python scripts\tutorials\01_assets\run_deformable_object.py
