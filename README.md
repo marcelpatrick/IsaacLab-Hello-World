@@ -10,6 +10,8 @@ Make sure you have IsaacSim and IsaacLab installed and your Python environment c
 
 # 2- Run Template Tasks in Internal Projects
 . Run template tasks that come inside the IsaacSim template project cloned from GitHub (internal project)
+. These tasks don't yet train the robots (no reinforcement learning workflow behind them). These scripts just demonstrate opening IsaacSim and running a virtual simulation: renders an environment, moves robotcs or assets around etc. Still no training. 
+
 . Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
 
 . Run template task demos available in the repo:
